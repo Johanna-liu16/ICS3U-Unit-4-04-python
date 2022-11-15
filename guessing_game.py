@@ -11,9 +11,9 @@ def main():
     # this is a number guessing game
 
     # input
+    print("Random Number Guessing Game.")
     while True:
         random_number = random.randint(1, 9)  # a number between 1 and 9
-        print("Random Number Guessing Game.")
         user_number = input("Enter a number between 0-9: ")
 
     # process
