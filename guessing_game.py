@@ -16,7 +16,7 @@ def main():
         random_number = random.randint(1, 9)  # a number between 1 and 9
         user_number = input("Enter a number between 0-9: ")
 
-    # process
+        # process
         try:
             number_int = int(user_number)
             if number_int == random_number:
